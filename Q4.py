@@ -1,0 +1,12 @@
+def find_gcd(a, b):
+    while b:
+        a, b = b, a % b
+    return a
+
+def find_lcm(a, b):
+    return (a * b) // find_gcd(a, b)
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+
+print(f"LCM of {num1} and {num2} is {find_lcm(num1, num2)}")
