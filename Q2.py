@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 def is_prime(n):
     if n < 2:
         return False
@@ -13,3 +14,10 @@ print(f"Prime numbers between {start} and {end}:")
 for num in range(start, end + 1):
     if is_prime(num):
         print(num, end=" ")
+=======
+# WAP to print multiplication table of a given number.
+
+n = int(input("Enter a number:"))
+for i in range(1, 11):  
+    print(n, "x", i, "=", n*i)
+>>>>>>> 18ee8c73681a1804f33fe94ba26c99d8790eb5b6

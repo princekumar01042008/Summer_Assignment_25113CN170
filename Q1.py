@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 num = int(input("Enter a number: "))
 
 if num < 2:
@@ -13,3 +14,12 @@ else:
         print(f"{num} is a prime number")
     else:
         print(f"{num} is not a prime number")
+=======
+# WAP to calculate sum of first n natural numbers.
+
+n = int(input("Enter a number:"))
+sum = 0
+for i in range(1, 1+n):
+    sum = sum + i
+print("Sum of first", n, "natural numbers is:", sum)
+>>>>>>> 18ee8c73681a1804f33fe94ba26c99d8790eb5b6
